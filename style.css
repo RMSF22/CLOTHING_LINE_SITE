@@ -1,0 +1,109 @@
+body{
+  background: #ffffff
+
+}
+
+header{
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #b4b4b4;
+}
+/*logo*/
+.logo-row{
+  text-align:center;
+}
+.logo{
+  width: 175px;
+  height: 40px;
+  text-align: center;
+  position: fixed;
+  padding-right: 10px;
+
+}
+
+.container{
+  display: inline-block;
+  cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+
+  width: 50px;
+  height: 8px;
+  background-color: #333;
+  margin: 6px 0;
+  transition:0.4s;
+}
+/*End of logo*/
+
+ /*The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: auto;
+}
+
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 21px 20px;
+    text-decoration: none;
+    height: auto;
+}
+
+/* Main content */
+.main {
+    margin-top: 50px; /* Add a top margin to avoid content overlay */
+}
+.navbar1 a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 0px 0px;
+
+}
+.navbarlogo a{
+  margin: 0px 27%;
+  position: fixed;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 10px 190px;
+  text-decoration: none;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
